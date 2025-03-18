@@ -5,5 +5,3 @@ notify:
   - slack:
       channels:
         - "#test"
-      env: 
-       token: $slack_token
