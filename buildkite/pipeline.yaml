@@ -2,6 +2,4 @@ steps:
   - label: "Build and Test"
     command: echo "it worked"
 notify:
-  - slack:
-      channels:
-        - "#test"
+  - slack: #test
