@@ -1,7 +1,8 @@
 steps:
   - label: "Build and Test"
     command: echo "it works"
+  - token: $SLACK_TOKEN
 notify:
   - slack: "#tests"
-  - token: $SLACK_TOKEN
+
 
