@@ -3,5 +3,6 @@ steps:
     command: echo "it workSs"
 notify:
   - slack: "#tests"
+  - token: "${SLACK_TOKEN}"
 
 
