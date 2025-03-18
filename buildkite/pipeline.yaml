@@ -1,6 +1,6 @@
 steps:
   - label: "Build and Test"
-    command: echo "it worked"
+    command: echo "it works"
 notify:
   - slack: "#tests"
 
