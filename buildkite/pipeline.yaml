@@ -1,1 +1,10 @@
-
+steps:
+  - label: "Build and Test"
+    command: echo "it worked"
+    notify:
+      slack:
+        channel: "#tests"
+        message: "Build completed"
+        username: "BuildBot"
+     env: 
+      token: $slack_token
