@@ -6,5 +6,5 @@ steps:
         channel: "#tests"
         message: "Build completed"
         username: "BuildBot"
-     env: 
-      token: $slack_token
+      env: 
+       token: $slack_token
