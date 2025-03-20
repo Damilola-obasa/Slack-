@@ -3,5 +3,5 @@ steps:
     command: echo "it workSs"
 
 notify:
-  - slack: "#test"
+  - slack: "#tests"
 
