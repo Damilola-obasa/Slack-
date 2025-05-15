@@ -4,7 +4,7 @@ steps:
     notify:
       - slack:
           channels:
-            - "#general"
+            - "#tests"
           message: "🔗 Build URL: ${BUILDKITE_BUILD_URL}"
 
 
