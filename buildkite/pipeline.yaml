@@ -5,6 +5,6 @@ steps:
       - slack:
           channels:
             - "#tests"
-          message: "🔗 Build URL: ${BUILDKITE_BUILD_URL}\n👤 Build created by: ${BUILDKITE_BUILD_CREATOR_EMAIL}"
+          message: "This is the 🔗 Build URL: ${BUILDKITE_BUILD_URL}\n👤 Build created by: ${BUILDKITE_BUILD_CREATOR_EMAIL} "
 
 
