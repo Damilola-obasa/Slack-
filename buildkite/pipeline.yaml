@@ -1,7 +1,7 @@
 notify:
   - slack:
       channels:
-        - "your-channel-name"
+        - "tests"
       message: "🔗 Build URL: ${BUILDKITE_BUILD_URL}\n👤 Build created by: ${BUILDKITE_BUILD_CREATOR_EMAIL}"
 
 steps:
