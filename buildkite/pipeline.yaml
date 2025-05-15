@@ -1,10 +1,10 @@
 steps:
-  - label: "Build and Test"
-    command: echo "it works"
-
+  - label: ":slack: Send Build URL"
+    command: echo "Build completed!"
     notify:
       - slack:
           channels:
-            - "#tests"
-          message: "This message will ping the group with ID"
+            - "#general"
+          message: "🔗 Build URL: ${BUILDKITE_BUILD_URL}"
+
 
