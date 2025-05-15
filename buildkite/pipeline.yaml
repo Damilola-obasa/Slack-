@@ -1,11 +1,10 @@
 steps:
   - label: "Build and Test"
     command: echo "it works"
-    
-  notify:
-  - slack:
-      channels:
-        - "#general"
-      message: "SRE related information here..."
 
+    notify:
+      - slack:
+          channels:
+            - "#tests"
+          message: "This message will ping the group with ID 
 
