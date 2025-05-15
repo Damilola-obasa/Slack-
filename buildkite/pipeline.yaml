@@ -6,5 +6,5 @@ steps:
       - slack:
           channels:
             - "#tests"
-          message: "This message will ping the group with ID 
+          message: "This message will ping the group with ID"
 
