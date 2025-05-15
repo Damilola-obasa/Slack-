@@ -1,10 +1,9 @@
+notify:
+  - slack:
+      channels:
+        - "your-channel-name"
+      message: "🔗 Build URL: ${BUILDKITE_BUILD_URL}\n👤 Build created by: ${BUILDKITE_BUILD_CREATOR_EMAIL}"
+
 steps:
-  - label: ":slack: Send Build URL"
+  - label: ":slack: Send Build Information"
     command: echo "Build completed!"
-    notify:
-      - slack:
-          channels:
-            - "#tests"
-          message: "This is the 🔗 Build URL: ${BUILDKITE_BUILD_URL}\n👤 Build created by: ${BUILDKITE_BUILD_CREATOR_EMAIL} "
-
-
